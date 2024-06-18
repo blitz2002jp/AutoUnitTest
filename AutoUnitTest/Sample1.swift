@@ -36,9 +36,9 @@ class Sample1 {
 
   func fun4(arg1: Int) -> Bool {
     if arg1 > 0 {
-      return true
+      return false
     }
     
-    return false
+    return true
   }
 }
