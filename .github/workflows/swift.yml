@@ -18,7 +18,7 @@ jobs:
       - name: Test
         run: xcodebuild test -project AutoUnitTest.xcodeproj/ -scheme AutoUnitTest -resultBundlePath TestResults -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 14"
         
-      - uses: kishikawakatsumi/xcresulttool@v1
-        with:
-          path: TestResults.xcresult
+#      - uses: kishikawakatsumi/xcresulttool@v1
+#        with:
+#          path: TestResults.xcresult
         if: success() || failure()
