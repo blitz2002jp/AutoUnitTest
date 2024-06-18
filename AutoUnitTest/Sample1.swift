@@ -25,7 +25,7 @@ class Sample1 {
       self.val1 = false
     }
   }
-
+  
   func fun3(arg1: Int) -> Bool {
     if arg1 > 0 {
       return true
@@ -33,12 +33,20 @@ class Sample1 {
     
     return false
   }
-
+  
   func fun4(arg1: Int) -> Bool {
     if arg1 > 0 {
       return false
     }
     
     return true
+  }
+  
+  func fun5(arg1: Int) -> Bool {
+    if arg1 > 0 {
+      return true
+    }
+    
+    return false
   }
 }
