@@ -33,4 +33,12 @@ class Sample1 {
     
     return false
   }
+
+  func fun4(arg1: Int) -> Bool {
+    if arg1 > 0 {
+      return false
+    }
+    
+    return true
+  }
 }
