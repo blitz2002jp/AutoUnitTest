@@ -73,4 +73,7 @@ final class AutoUnitTestTests: XCTestCase {
   func testFun4() {
     XCTAssertEqual(self.target1.fun4(arg1: 0), true, "fun3 function did not return expected value")
   }
+  func testFun5() {
+    XCTAssertEqual(self.target1.fun5(arg1: 1), true, "fun3 function did not return expected value")
+  }
 }
